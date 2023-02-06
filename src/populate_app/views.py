@@ -58,7 +58,7 @@ class ProductViewSet(viewsets.ModelViewSet):
             ) = row
             product_list.append(
                 Product(
-                    user=user,
+                    user_id=user,
                     category=category,
                     price=price,
                     name=name,
